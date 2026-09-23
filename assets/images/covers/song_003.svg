@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="cov3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="16" fill="url(#cov3)"/>
+  <rect x="40" y="40" width="220" height="220" rx="8" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="8 6"/>
+  <line x1="50" y1="150" x2="250" y2="150" stroke="#38bdf8" stroke-width="3"/>
+  <line x1="150" y1="50" x2="150" y2="250" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="150" cy="150" r="45" fill="#0f172a" stroke="#22d3ee" stroke-width="4"/>
+  <text x="150" y="156" font-family="monospace" font-size="16" font-weight="bold" fill="#22d3ee" text-anchor="middle">2099</text>
+  <text x="150" y="275" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#e0e7ff" text-anchor="middle" letter-spacing="3">OVERDRIVE DIGITAL</text>
+</svg>

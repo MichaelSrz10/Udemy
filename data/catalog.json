@@ -1,0 +1,150 @@
+{
+  "artists": [
+    {
+      "id": "art_001",
+      "name": "Luna Valiente",
+      "genre": "Indie Pop / Synthwave",
+      "image": "assets/images/artists/art_001.svg",
+      "monthlyListeners": "1.450.200 oyentes mensuales",
+      "bio": "Luna Valiente es una cantautora y productora bogotana reconocida por fusionar sintetizadores atmosféricos de los años 80 con ritmos acústicos andinos y líricas poéticas de introspección urbana."
+    },
+    {
+      "id": "art_002",
+      "name": "Matías Canto",
+      "genre": "Folk Latinoamericano",
+      "image": "assets/images/artists/art_002.svg",
+      "monthlyListeners": "890.400 oyentes mensuales",
+      "bio": "Guitarrista y trovador moderno. Sus composiciones exploran la conexión con la naturaleza, la memoria cultural y las historias de vida de los pueblos cordilleranos de América del Sur."
+    },
+    {
+      "id": "art_003",
+      "name": "Neon Pulse",
+      "genre": "Electrónica / Cyberpunk",
+      "image": "assets/images/artists/art_003.svg",
+      "monthlyListeners": "2.810.000 oyentes mensuales",
+      "bio": "Dúo vanguardista de música electrónica y diseño sonoro. Han encabezado festivales internacionales gracias a sus paisajes sonoros futuristas y líneas de bajo analógicas contundentes."
+    },
+    {
+      "id": "art_004",
+      "name": "Valeria Ríos",
+      "genre": "R&B / Soul Contemporáneo",
+      "image": "assets/images/artists/art_004.svg",
+      "monthlyListeners": "1.920.500 oyentes mensuales",
+      "bio": "Con una voz cálida de registro prodigioso, Valeria combina influencias de neo-soul con percusiones caribeñas, creando un sonido íntimo y profundamente emotivo."
+    },
+    {
+      "id": "art_005",
+      "name": "Los Ecos del Viento",
+      "genre": "Rock Alternativo",
+      "image": "assets/images/artists/art_005.svg",
+      "monthlyListeners": "640.100 oyentes mensuales",
+      "bio": "Banda de rock alternativo formada en 2018. Se caracterizan por guitarras con delay expansivo, letras de crítica social y una energía electrizante en sus presentaciones en vivo."
+    },
+    {
+      "id": "art_006",
+      "name": "Aura Jazz Cuarteto",
+      "genre": "Jazz Contemporáneo",
+      "image": "assets/images/artists/art_006.svg",
+      "monthlyListeners": "430.700 oyentes mensuales",
+      "bio": "Agrupación instrumental virtuosa que entrelaza la armonía del jazz modal con compases irregulares de folclor latinoamericano."
+    }
+  ],
+  "songs": [
+    {
+      "id": "song_001",
+      "title": "Luces de Medianoche",
+      "artistId": "art_001",
+      "album": "Horizontes de Neón",
+      "cover": "assets/images/covers/song_001.svg",
+      "duration": "3:42",
+      "releaseYear": 2024,
+      "genre": "Indie Pop",
+      "category": "recent",
+      "lyrics": "Verso 1:\nLa ciudad se apaga pero adentro arde un fuego lento\nCaminando solo entre reflejos y cemento\nEl eco de tu risa viaja contra el viento\nY no sé si es recuerdo o puro presentimiento.\n\nCoro:\nLuces de medianoche brillan sobre el asfalto\nBuscando una respuesta en el silencio más alto\nSi el tiempo no perdona, déjame bailar contigo\nHasta que amanezca y el sol sea testigo.\n\nVerso 2:\nSintetizadores vibran en la frecuencia exacta\nUna promesa rota que la memoria rescata\nMiramos las estrellas desde la terraza fría\nSabiendo que la noche apenas comenzaba todavía.\n\nCoro:\nLuces de medianoche brillan sobre el asfalto\nBuscando una respuesta en el silencio más alto\nSi el tiempo no perdona, déjame bailar contigo\nHasta que amanezca y el sol sea testigo.\n\nOutro:\nSolo luces... en la medianoche... tú y yo."
+    },
+    {
+      "id": "song_002",
+      "title": "Caminos de Sal",
+      "artistId": "art_002",
+      "album": "Tierra Viva",
+      "cover": "assets/images/covers/song_002.svg",
+      "duration": "4:15",
+      "releaseYear": 2023,
+      "genre": "Folk Latinoamericano",
+      "category": "recent",
+      "lyrics": "Verso 1:\nPaso a paso por la cordillera blanca\nDonde el viento canta y la piedra no descansa\nLlevo en el morral un puñado de memoria\nY una vieja copla que resume nuestra historia.\n\nCoro:\nCaminos de sal, senderos de agua viva\nLa montaña sabe lo que el corazón esquiva\nVuelvo a mis raíces, al aroma de la leña\nDonde la esperanza nunca se empeña.\n\nVerso 2:\nEl charango llora con cariño y con orgullo\nCada surco abierto en la tierra es un arrullo\nNo me falta nada si me sobra la tonada\nQue me dio mi abuelo en la madrugada.\n\nCoro:\nCaminos de sal, senderos de agua viva\nLa montaña sabe lo que el corazón esquiva\nVuelvo a mis raíces, al aroma de la leña\nDonde la esperanza nunca se empeña."
+    },
+    {
+      "id": "song_003",
+      "title": "Protocolo Cyber 2099",
+      "artistId": "art_003",
+      "album": "Overdrive Digital",
+      "cover": "assets/images/covers/song_003.svg",
+      "duration": "3:18",
+      "releaseYear": 2025,
+      "genre": "Electrónica / Cyberpunk",
+      "category": "featured",
+      "lyrics": "Intro:\n[Secuencia de datos iniciada... Sincronizando pulsos 128 BPM]\n\nVerso 1:\nCircuitos en serie, pulsos de grafeno\nLa red respira un algoritmo sin freno\nLuces holográficas cruzan la avenida\nEn esta matrix que parece tener vida.\n\nDrop / Coro:\n¡Protocolo activo en la frecuencia cero!\n¡La noche es un destello de silicio y acero!\nConexión directa, mente y vibración\nSiente la corriente de la revolución.\n\nVerso 2:\nTransmisores ópticos codifican la emoción\nUn glitch en el sistema desata la pasión\nNadie duerme en el sector cuarenta y dos\nBajo la tormenta electrónica de Dios.\n\nOutro:\n[Desconexión completada con éxito]."
+    },
+    {
+      "id": "song_004",
+      "title": "Terciopelo Azul",
+      "artistId": "art_004",
+      "album": "Marea Serena",
+      "cover": "assets/images/covers/song_004.svg",
+      "duration": "3:55",
+      "releaseYear": 2024,
+      "genre": "R&B / Soul",
+      "category": "featured",
+      "lyrics": "Verso 1:\nLa lluvia golpea despacio en el cristal\nEl café se enfría en la mesa principal\nTu perfume flota como un suave suspiro\nY cada acorde menor es un giro.\n\nCoro:\nTerciopelo azul envolviendo la mirada\nUna melodía dulce y enamorada\nNo me digas nada que las notas hablan solas\nNavegando juntos sobre estas olas.\n\nVerso 2:\nEl bajo desliza una caricia sincera\nComo si el invierno fuera primavera\nSi cierras los ojos encontrarás el compás\nDel amor que llega y no se va jamás.\n\nCoro:\nTerciopelo azul envolviendo la mirada\nUna melodía dulce y enamorada\nNo me digas nada que las notas hablan solas\nNavegando juntos sobre estas olas."
+    },
+    {
+      "id": "song_005",
+      "title": "Fuego en la Cumbre",
+      "artistId": "art_005",
+      "album": "Gritos de la Tierra",
+      "cover": "assets/images/covers/song_005.svg",
+      "duration": "4:02",
+      "releaseYear": 2023,
+      "genre": "Rock Alternativo",
+      "category": "recent",
+      "lyrics": "Verso 1:\nSe levanta el polvo contra la tempestad\nUn acorde crudo rompe la soledad\nLas guitarras rugen como un vendaval\nBuscando una chispa que sea inmortal.\n\nCoro:\n¡Fuego en la cumbre, trueno en el cañón!\n¡Grita con el alma, salta con pasión!\nNo podrán callar lo que vibra adentro\nCuando el rock explota justo en el centro.\n\nVerso 2:\nCorremos sin miedo al borde del abismo\nLejos de las sombras y del conformismo\nQue la batería marque el despertar\nDe una voz rebelde lista para volar.\n\nSolo de Guitarra...\n\nCoro:\n¡Fuego en la cumbre, trueno en el cañón!\n¡Grita con el alma, salta con pasión!\nNo podrán callar lo que vibra adentro\nCuando el rock explota justo en el centro."
+    },
+    {
+      "id": "song_006",
+      "title": "Nocturno en Do Menor",
+      "artistId": "art_006",
+      "album": "Ecos Urbanos",
+      "cover": "assets/images/covers/song_006.svg",
+      "duration": "5:12",
+      "releaseYear": 2024,
+      "genre": "Jazz Contemporáneo",
+      "category": "featured",
+      "lyrics": "[Pieza Instrumental de Jazz]\n\nEstructura:\n- Intro: Solo de contrabajo con escobillas en batería (Tempo rubato).\n- Tema Principal: Saxofón tenor interpretando la melodía melancólica en Do Menor.\n- Sección B: Improvisación virtuosa en piano Rhodes con síncopas latinoamericanas.\n- Clímax: Diálogo polifónico entre saxofón y piano con crescendo dinámico.\n- Coda: Desvanecimiento suave en fade out con armónicos de contrabajo."
+    },
+    {
+      "id": "song_007",
+      "title": "Olas de Cristal",
+      "artistId": "art_001",
+      "album": "Horizontes de Neón",
+      "cover": "assets/images/covers/song_007.svg",
+      "duration": "3:29",
+      "releaseYear": 2024,
+      "genre": "Indie Pop",
+      "category": "recent",
+      "lyrics": "Verso 1:\nEl mar respira bajo el cielo violeta\nDejé mi brújula en la orilla secreta\nLas olas traen recuerdos de papel\nY tu voz susurra sobre mi piel.\n\nCoro:\nOlas de cristal rompen en la playa\nUn amor sincero que nunca se calla\nNademos profundo sin mirar atrás\nDonde vive la calma y florece la paz."
+    },
+    {
+      "id": "song_008",
+      "title": "Voz de Barro",
+      "artistId": "art_002",
+      "album": "Tierra Viva",
+      "cover": "assets/images/covers/song_008.svg",
+      "duration": "3:50",
+      "releaseYear": 2023,
+      "genre": "Folk Latinoamericano",
+      "category": "featured",
+      "lyrics": "Verso 1:\nModelando sueños con las manos viejas\nEscuchando el canto que dejan las tejas\nBarro de la acequia, arcilla de la flor\nTodo lo que canta tiene un creador.\n\nCoro:\nVoz de barro y de quebrada\nQue acompaña mi jornada\nSiembra vida en la colina\nCon la gracia campesina."
+    }
+  ]
+}

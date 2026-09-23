@@ -1,0 +1,46 @@
+{
+  "app": {
+    "name": "MelodIA",
+    "tagline": "Tu música, tus artistas, tu asistente inteligente",
+    "logo": "assets/icons/logo.svg"
+  },
+  "navigation": [
+    { "id": "home", "label": "Inicio", "icon": "home", "view": "home", "order": 1 },
+    { "id": "search", "label": "Buscar", "icon": "search", "view": "search", "order": 2 },
+    { "id": "artists", "label": "Artistas", "icon": "mic", "view": "artists", "order": 3 },
+    { "id": "library", "label": "Tu Biblioteca", "icon": "library", "view": "library", "order": 4 }
+  ],
+  "quickFilters": [
+    { "id": "all", "label": "Todo" },
+    { "id": "music", "label": "Música" },
+    { "id": "podcasts", "label": "Artistas destacados" },
+    { "id": "lyrics", "label": "Con letras" }
+  ],
+  "views": {
+    "home": {
+      "title": "Buenas tardes",
+      "type": "grid",
+      "dataSource": "catalog.songs",
+      "sections": [
+        { "id": "recent", "heading": "Escuchado recientemente", "filter": "recent" },
+        { "id": "featured", "heading": "Recomendado para ti", "filter": "featured" },
+        { "id": "top_artists", "heading": "Artistas más populares", "filter": "artists" }
+      ]
+    },
+    "artists": {
+      "title": "Artistas del Catálogo",
+      "type": "grid",
+      "dataSource": "catalog.artists"
+    },
+    "search": {
+      "title": "Explorar el Catálogo",
+      "type": "search",
+      "placeholder": "¿Qué canción, artista o género quieres escuchar?"
+    },
+    "library": {
+      "title": "Tu Biblioteca Musical",
+      "type": "library",
+      "description": "Tus canciones favoritas, historial reciente y listas guardadas en MelodIA."
+    }
+  }
+}

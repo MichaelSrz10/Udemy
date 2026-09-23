@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="cov4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="16" fill="url(#cov4)"/>
+  <circle cx="150" cy="130" r="60" fill="#6366f1" opacity="0.4"/>
+  <circle cx="150" cy="130" r="40" fill="#818cf8" opacity="0.6"/>
+  <path d="M120 180 C130 150, 170 150, 180 180" stroke="#c7d2fe" stroke-width="4" fill="none"/>
+  <text x="150" y="260" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#e0e7ff" text-anchor="middle" letter-spacing="2">MAREA SERENA</text>
+</svg>

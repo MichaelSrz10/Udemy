@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MelodIA - Plataforma de streaming musical inspirada en Spotify con asistente conversacional inteligente impulsado por Google Gemini 2.5 Flash y RAG.">
+  <meta name="theme-color" content="#1DB954">
+  <title>MelodIA - Streaming Musical & Asistente IA</title>
+  
+  <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Contenedor Principal de la Aplicación -->
+  <div class="app-container" id="app">
+    
+    <!-- Barra Lateral (Sidebar) -->
+    <aside id="sidebar-root" class="app-sidebar" aria-label="Menú principal"></aside>
+
+    <!-- Área de Contenido Principal -->
+    <main class="app-main" id="main-region">
+      <!-- Encabezado / Barra Superior -->
+      <header id="header-root" class="app-header" aria-label="Barra superior"></header>
+
+      <!-- Contenedor Scrollable para Vistas -->
+      <div id="main-scroll-content" class="main-scroll-content" role="region" aria-live="polite"></div>
+    </main>
+
+    <!-- Barra de Reproducción Inferior (Player Bar) -->
+    <footer id="player-root" class="app-player" aria-label="Reproductor de música"></footer>
+
+  </div>
+
+  <!-- Contenedores para Modales y Chatbot Flotante -->
+  <div id="modal-root"></div>
+  <div id="chat-root"></div>
+
+  <!-- Script Principal de la SPA (ES6 Modules) -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

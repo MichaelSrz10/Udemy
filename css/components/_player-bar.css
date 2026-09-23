@@ -1,0 +1,218 @@
+.player-bar-container {
+  height: 100%;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Sección Izquierda: Información de pista */
+.player-track-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 280px;
+  min-width: 180px;
+}
+
+.player-cover {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background-color: var(--bg-surface-elevated);
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.player-cover img,
+.player-cover svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.player-details {
+  overflow: hidden;
+}
+
+.player-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.player-title:hover {
+  text-decoration: underline;
+}
+
+.player-artist {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.player-artist:hover {
+  text-decoration: underline;
+  color: var(--text-primary);
+}
+
+/* Sección Central: Controles y Progreso */
+.player-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  max-width: 600px;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.control-btn {
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.control-btn:hover {
+  color: var(--text-primary);
+  transform: scale(1.08);
+}
+
+.control-btn.play-main {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  background-color: var(--text-primary);
+  color: var(--bg-main);
+}
+
+.control-btn.play-main:hover {
+  background-color: var(--color-primary);
+  color: #121212;
+  transform: scale(1.1);
+}
+
+.player-progress-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.player-time {
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  min-width: 32px;
+  text-align: center;
+}
+
+.progress-slider-container {
+  flex: 1;
+  height: 4px;
+  background-color: var(--player-progress-bg);
+  border-radius: var(--radius-full);
+  position: relative;
+  cursor: pointer;
+  transition: height var(--transition-fast);
+}
+
+.progress-slider-container:hover {
+  height: 6px;
+}
+
+.progress-slider-fill {
+  height: 100%;
+  background-color: var(--player-progress-fill);
+  border-radius: var(--radius-full);
+  width: 0%;
+  position: relative;
+}
+
+.progress-slider-handle {
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: var(--radius-full);
+  opacity: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: opacity var(--transition-fast);
+}
+
+.progress-slider-container:hover .progress-slider-handle {
+  opacity: 1;
+}
+
+/* Sección Derecha: Extras y Volumen */
+.player-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  width: 240px;
+}
+
+.player-extra-btn {
+  color: var(--text-secondary);
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition-fast);
+}
+
+.player-extra-btn:hover,
+.player-extra-btn.active {
+  color: var(--color-primary);
+}
+
+.volume-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 120px;
+}
+
+.volume-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: var(--player-progress-bg);
+  border-radius: var(--radius-full);
+  outline: none;
+  cursor: pointer;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--text-primary);
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+}
+
+.volume-slider:hover::-webkit-slider-thumb {
+  background: var(--color-primary);
+  transform: scale(1.2);
+}

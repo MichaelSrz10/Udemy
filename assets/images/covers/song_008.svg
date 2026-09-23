@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="cov8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350f" />
+      <stop offset="50%" stop-color="#92400e" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="16" fill="url(#cov8)"/>
+  <ellipse cx="150" cy="140" rx="50" ry="65" fill="#d97706" opacity="0.6"/>
+  <ellipse cx="150" cy="140" rx="30" ry="45" fill="#fef3c7" opacity="0.4"/>
+  <text x="150" y="260" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">VOZ DE BARRO</text>
+</svg>

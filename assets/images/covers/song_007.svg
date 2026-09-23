@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="cov7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="50%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="16" fill="url(#cov7)"/>
+  <path d="M50 160 Q100 130 150 160 T250 160" stroke="#f0fdfa" stroke-width="5" fill="none"/>
+  <path d="M50 180 Q100 150 150 180 T250 180" stroke="#ccfbf1" stroke-width="3" fill="none"/>
+  <circle cx="150" cy="100" r="25" fill="#fef08a" opacity="0.9"/>
+  <text x="150" y="260" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">OLAS DE CRISTAL</text>
+</svg>

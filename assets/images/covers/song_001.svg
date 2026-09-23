@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="cov1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a0e4e" />
+      <stop offset="50%" stop-color="#88117a" />
+      <stop offset="100%" stop-color="#1DB954" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="16" fill="url(#cov1)"/>
+  <circle cx="150" cy="120" r="55" fill="#f8fafc" fill-opacity="0.15"/>
+  <path d="M70 230 Q150 160 230 230" stroke="#1ed760" stroke-width="6" fill="none" opacity="0.8"/>
+  <path d="M90 250 Q150 190 210 250" stroke="#f43f5e" stroke-width="4" fill="none" opacity="0.6"/>
+  <text x="150" y="275" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">HORIZONTES DE NEÓN</text>
+  <circle cx="150" cy="120" r="28" fill="#1DB954"/>
+  <polygon points="144,106 162,120 144,134" fill="#121212"/>
+</svg>

@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "version": "1.0",
+    "scope": "Base de conocimiento exclusiva para el asistente virtual de MelodIA",
+    "updatedAt": "2026-09-16"
+  },
+  "policy": {
+    "allowedTopics": [
+      "catálogo musical",
+      "canciones y álbumes",
+      "artistas y biografías",
+      "letras y temáticas de canciones",
+      "funciones de la plataforma MelodIA (reproductor, temas, búsqueda, letras)"
+    ],
+    "rejectionMessage": "Lo siento, como asistente de MelodIA solo puedo ayudarte con temas sobre nuestra música, artistas del catálogo y las funciones de la plataforma. ¿Quieres que te recomiende alguna canción?"
+  },
+  "entries": [
+    {
+      "id": "kb_song_001",
+      "type": "song",
+      "refId": "song_001",
+      "searchableText": "luces de medianoche luna valiente horizontes de neon indie pop synthwave sintetizadores bogota noche",
+      "summary": "Canción 'Luces de Medianoche' de Luna Valiente (Álbum: Horizontes de Neón, 2024). Género Indie Pop/Synthwave con sintetizadores ochenteros y atmósfera nocturna. Letra sobre memoria y baile urbano."
+    },
+    {
+      "id": "kb_song_002",
+      "type": "song",
+      "refId": "song_002",
+      "searchableText": "caminos de sal matias canto tierra viva folk latinoamericano charango cordillera montaña naturaleza",
+      "summary": "Canción 'Caminos de Sal' de Matías Canto (Álbum: Tierra Viva, 2023). Género Folk Latinoamericano con charango y lírica sobre raíces andinas y memoria ancestral."
+    },
+    {
+      "id": "kb_song_003",
+      "type": "song",
+      "refId": "song_003",
+      "searchableText": "protocolo cyber 2099 neon pulse overdrive digital electronica cyberpunk sintetizadores futurista",
+      "summary": "Canción 'Protocolo Cyber 2099' del dúo Neon Pulse (Álbum: Overdrive Digital, 2025). Género Electrónica/Cyberpunk a 128 BPM con pulsos de sintetizador y estética futurista."
+    },
+    {
+      "id": "kb_song_004",
+      "type": "song",
+      "refId": "song_004",
+      "searchableText": "terciopelo azul valeria rios marea serena r&b soul contemporaneo caribe suave romantica",
+      "summary": "Canción 'Terciopelo Azul' de Valeria Ríos (Álbum: Marea Serena, 2024). Género Neo-Soul / R&B con bajo cálido y temática de amor íntimo."
+    },
+    {
+      "id": "kb_song_005",
+      "type": "song",
+      "refId": "song_005",
+      "searchableText": "fuego en la cumbre los ecos del viento gritos de la tierra rock alternativo guitarras energia",
+      "summary": "Canción 'Fuego en la Cumbre' de la banda Los Ecos del Viento (Álbum: Gritos de la Tierra, 2023). Rock alternativo con potentes guitarras y letra de rebeldía y pasión."
+    },
+    {
+      "id": "kb_song_006",
+      "type": "song",
+      "refId": "song_006",
+      "searchableText": "nocturno en do menor aura jazz cuarteto ecos urbanos jazz contemporaneo saxofon piano instrumental",
+      "summary": "Pieza 'Nocturno en Do Menor' de Aura Jazz Cuarteto (Álbum: Ecos Urbanos, 2024). Obra instrumental de Jazz Contemporáneo con solos de saxofón tenor y piano Rhodes."
+    },
+    {
+      "id": "kb_song_007",
+      "type": "song",
+      "refId": "song_007",
+      "searchableText": "olas de cristal luna valiente horizontes de neon indie pop mar playa calma",
+      "summary": "Canción 'Olas de Cristal' de Luna Valiente (Álbum: Horizontes de Neón, 2024). Balada Indie Pop con cadencia marítima y calma poética."
+    },
+    {
+      "id": "kb_song_008",
+      "type": "song",
+      "refId": "song_008",
+      "searchableText": "voz de barro matias canto tierra viva folk latinoamericano campesino artesano",
+      "summary": "Canción 'Voz de Barro' de Matías Canto (Álbum: Tierra Viva, 2023). Homenaje folclórico a los artesanos y la tierra andina."
+    },
+    {
+      "id": "kb_art_001",
+      "type": "artist",
+      "refId": "art_001",
+      "searchableText": "luna valiente indie pop synthwave bogota colombia cantautora productora sintetizadores",
+      "summary": "Luna Valiente: Cantautora y productora colombiana pionera en mezclar Synthwave con pop lírico andino. Canciones en catálogo: 'Luces de Medianoche' y 'Olas de Cristal'."
+    },
+    {
+      "id": "kb_art_002",
+      "type": "artist",
+      "refId": "art_002",
+      "searchableText": "matias canto folk latinoamericano trovador charango guitarra cordillera andes",
+      "summary": "Matías Canto: Trovador y guitarrista folclórico que rescata tonadas cordilleranas tradicionales. Canciones en catálogo: 'Caminos de Sal' y 'Voz de Barro'."
+    },
+    {
+      "id": "kb_art_003",
+      "type": "artist",
+      "refId": "art_003",
+      "searchableText": "neon pulse duo electronica cyberpunk dance live sets festivales bajos",
+      "summary": "Neon Pulse: Dúo de música electrónica cyberpunk internacional con más de 2.8M oyentes. Canción en catálogo: 'Protocolo Cyber 2099'."
+    },
+    {
+      "id": "kb_art_004",
+      "type": "artist",
+      "refId": "art_004",
+      "searchableText": "valeria rios rb soul neo soul caribe voz suave vocalista",
+      "summary": "Valeria Ríos: Cantante de Neo-Soul y R&B con influencias afrocaribeñas y voz privilegiada. Canción en catálogo: 'Terciopelo Azul'."
+    },
+    {
+      "id": "kb_art_005",
+      "type": "artist",
+      "refId": "art_005",
+      "searchableText": "los ecos del viento rock alternativo banda guitarras delay directo festival",
+      "summary": "Los Ecos del Viento: Banda de rock alternativo destacada por sus riffs enérgicos y mensaje social. Canción en catálogo: 'Fuego en la Cumbre'."
+    },
+    {
+      "id": "kb_art_006",
+      "type": "artist",
+      "refId": "art_006",
+      "searchableText": "aura jazz cuarteto jazz contemporaneo instrumental saxofon piano fusion",
+      "summary": "Aura Jazz Cuarteto: Ensamble instrumental virtuoso de jazz y folclor modal. Obra en catálogo: 'Nocturno en Do Menor'."
+    },
+    {
+      "id": "kb_faq_theme",
+      "type": "platform_faq",
+      "searchableText": "cambiar tema modo oscuro modo claro color apariencia switch boton sol luna",
+      "question": "¿Cómo cambio entre modo claro y modo oscuro en MelodIA?",
+      "answer": "Puedes cambiar el tema en cualquier momento haciendo clic en el botón con ícono de Sol/Luna ubicado en la barra superior derecha. Tu preferencia se guardará automáticamente para tus próximas visitas."
+    },
+    {
+      "id": "kb_faq_lyrics",
+      "type": "platform_faq",
+      "searchableText": "como ver letra letras canciones modal biografia del artista reseña",
+      "question": "¿Cómo puedo ver la letra de una canción y la biografía del artista?",
+      "answer": "Haz clic sobre cualquier tarjeta de canción en el catálogo o presiona el botón 'Ver Letra' en el reproductor inferior. Se abrirá un modal interactivo con la letra completa y la reseña del artista."
+    },
+    {
+      "id": "kb_faq_player",
+      "type": "platform_faq",
+      "searchableText": "como funciona el reproductor controles play pausa siguiente anterior volumen barra de progreso",
+      "question": "¿Cómo funciona el reproductor de música de MelodIA?",
+      "answer": "En la barra fija inferior encontrarás los controles de Play/Pausa, canción anterior, canción siguiente, barra de tiempo interactiva y control de volumen deslizante. Al hacer clic en el botón de reproducción de cualquier tarjeta, la canción se cargará al instante en el reproductor."
+    },
+    {
+      "id": "kb_faq_search",
+      "type": "platform_faq",
+      "searchableText": "como buscar canciones artistas generos filtro barra de busqueda",
+      "question": "¿Cómo busco canciones o artistas en la plataforma?",
+      "answer": "Ve a la sección 'Buscar' en el menú lateral o escribe directamente en la barra de búsqueda superior. Puedes filtrar por título, nombre de artista, álbum o género musical en tiempo real."
+    }
+  ]
+}

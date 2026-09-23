@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="art1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="150" r="150" fill="url(#art1)"/>
+  <circle cx="150" cy="115" r="50" fill="#fdf2f8"/>
+  <path d="M75 250 C75 190, 225 190, 225 250" fill="#fdf2f8"/>
+  <circle cx="150" cy="115" r="42" fill="#f472b6" opacity="0.3"/>
+  <text x="150" y="285" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">LUNA VALIENTE</text>
+</svg>

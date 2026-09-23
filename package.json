@@ -1,0 +1,21 @@
+{
+  "name": "melodia-streaming-chatbot",
+  "version": "1.0.0",
+  "description": "Plataforma de streaming musical inspirada en Spotify con asistente conversacional IA impulsado por Gemini 2.5 Flash y contexto cerrado RAG.",
+  "type": "module",
+  "main": "server/proxy.js",
+  "scripts": {
+    "start": "node server/proxy.js",
+    "dev": "node server/proxy.js"
+  },
+  "keywords": [
+    "music-streaming",
+    "spotify-clone",
+    "gemini",
+    "ai-chatbot",
+    "rag",
+    "vanilla-js"
+  ],
+  "author": "MelodIA Team",
+  "license": "MIT"
+}
